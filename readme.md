@@ -3,6 +3,7 @@
 [![N|](https://avatars0.githubusercontent.com/u/30927368?s=40&v=4)](https://facebook.com/luizeduardo28)
 
 [EN-US] Application to display swapi information (Star Wars)
+
 [PT-BR] Aplicação para exibir informações de swapi (Star Wars)
 
   - Desenvolvido em React Native / Development with React Native
@@ -21,6 +22,7 @@
 ### Installation / Instalação
 
 [EN-US] Install the dependencies and devDependencies and start the server. [React Native](https://facebook.github.io/react-native/docs/getting-started) 
+
 [PT-BR] Instale as dependências e devDependencies e inicie o servidor. [React Native](https://facebook.github.io/react-native/docs/getting-started) 
 
 
