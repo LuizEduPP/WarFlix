@@ -11,7 +11,7 @@ export default class App extends Component {
     return (
       <Router hideNavBar="true">
         <Scene key="root">
-          <Scene key="Home" component={Home} hideNavBar={true} />
+          <Scene key="Home" component={Home} hideNavBar={true} initial={true} />
           <Scene key="ViewList" component={ViewList} hideNavBar={true} />
           <Scene key="Details" component={Details} hideNavBar={true} />
         </Scene>

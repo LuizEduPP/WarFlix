@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FlatList} from "react-native";
+import { FlatList, BackHandler, Alert } from "react-native";
 import {
   Container,
   Content,
@@ -7,7 +7,9 @@ import {
   ListItem,
   Thumbnail,
   Left,
-  Right,
+	Right,
+	Button,
+	Icon,
   Body,
   Title,
   Text
@@ -33,7 +35,7 @@ class Home extends Component {
       ]
     };
   }
-  
+
   render() {
     return (
       <Container style={GeneralStyle.Container}>
@@ -42,7 +44,11 @@ class Home extends Component {
           <Body>
             <Title>Star Wars Universe</Title>
           </Body>
-          <Right/>
+					<Right>
+						<Button transparent onPress={() => { BackHandler.exitApp() }}>
+								<Icon name='exit' />
+						</Button>
+					</Right>
         </Header>
 
         <Content>
