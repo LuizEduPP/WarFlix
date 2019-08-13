@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FlatList, BackHandler, Alert } from "react-native";
+import { FlatList, BackHandler } from "react-native";
 import {
   Container,
   Content,
