@@ -7,8 +7,6 @@ import Home from "./src/screens/Home";
 import ViewList from './src/screens/ViewList';
 import Details from './src/screens/Details';
 
-
-
 export default class App extends Component {
   render() {
     return (
